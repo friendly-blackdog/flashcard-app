@@ -27,6 +27,10 @@ body {
     --rotate-y: 180deg;
 }
 
+.card .front {
+    left: 0;
+}
+
 .card .front,
 .card .back {
     position: absolute;
@@ -36,4 +40,18 @@ body {
 
 .card .back {
     transform: rotateY(180deg);
+}
+
+.flashcard-options {
+    margin-top: .5rem;
+}
+
+.flashcard-option {
+    margin-top: .25rem;
+    color: #555;
+    font-size: .75rem;
+}
+
+.flashcard-option:first-child {
+    margin-top: 0;
 }
